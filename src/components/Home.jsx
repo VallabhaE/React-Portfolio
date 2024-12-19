@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Home = () => {
   return (
-    <div className='flex flex-col h-[100vh] justify-center ml-[30%]  '>
+    <div className='md:flex md:flex-col md:h-[100vh] justify-center md:ml-[30%]  '>
       <span className="flex font-bold text-[100px] w-48 ">
         Hello <img src="/hi.svg" alt="" className="h-[80px] mx-4" /> I'm
       </span>

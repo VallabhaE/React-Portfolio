@@ -7,13 +7,13 @@ const Project = ({ img, name, desc }) => {
       <img 
         src={img} 
         alt="" 
-        className='h-56 w-full object-cover rounded-t-2xl grayscale hover:grayscale-0 transition-all duration-150' 
+        className='h-32 w-full  object-cover rounded-t-2xl grayscale hover:grayscale-0 transition-all duration-150' 
       />
 
       {/* Text Section with Enhanced Styling */}
       <div className='bg-blue-800 p-4 rounded-b-2xl'>
         <h1 className='text-white text-2xl font-semibold text-center mb-2'>{name}</h1>
-        <p className='text-white text-lg font-light text-center'>{desc}</p>
+        <p className='text-white   text-center'>{desc}</p>
       </div>
     </div>
   )

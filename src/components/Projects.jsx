@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div>
         <div><h1 className='text-2xl font-bold text-center border m-2'>Projects</h1></div>
-        <div className='grid grid-cols-4 ml-10'>
+        <div className='grid md:grid-cols-4 md:ml-10 justify-center'>
         <Project img={one} name="yo" desc="This project i build for my personal Learning and i learned X and Y so to become Z" />
         <Project img={one} name="yo" desc="This project i build for my personal Learning and i learned X and Y so to become Z" />
         <Project img={one} name="yo" desc="This project i build for my personal Learning and i learned X and Y so to become Z" />
