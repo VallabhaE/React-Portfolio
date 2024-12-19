@@ -8,7 +8,7 @@ export const ContactMe = () => {
                 <div className='flex flex-col gap-3'>
                     <label className='text-white' htmlFor="">Enter Email: </label>
                     <input type="email" className='p-2 m-2' placeholder='Enter Email...'/>
-                    <label className='text-white' htmlFor="">Enter Email: </label>
+                    <label className='text-white' htmlFor="">Enter Password: </label>
                     <input type="password" className='p-2 m-2' placeholder='Enter Password...' />
                     <br />
                     <textarea name="" className='h-40 p-2 m-2' placeholder='Enter the message you want to send........' id=""></textarea>
