@@ -15,9 +15,9 @@ const AboutMe = () => {
   }, []);
 
   return (
-    <div className="h-[80vh] bg-black rounded-3xl m-2 md:flex justify-between ">
+    <div className="md:h-[80vh] bg-black rounded-3xl m-2 md:flex justify-between ">
 
-        <p className='text-white m-5 font-light  w-full text-xl self-center font-serif'><h1 className='text-2xl font-bold '>About ME</h1><br /><p className=' '>{ABOUTMEINFO}</p></p>
+        <p className='text-white m-5 font-light p-6  w-full text-xl self-center font-serif'><h1 className='text-2xl font-bold '>About ME</h1><br /><p className=' '>{ABOUTMEINFO}</p></p>
       <img
         src={img ? one : two} 
         alt="Rotating Images"
