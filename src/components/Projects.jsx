@@ -16,7 +16,7 @@ const Projects = () => {
           
         {
           ProjectInfo.map((project,idx)=>{
-            return <Project link={project.link} img={project.img} name={project.name} desc={project.desc} />
+            return <a href={project.link}><Project link={project.link} img={project.img} name={project.name} desc={project.desc} /></a>
 
           })
         }
